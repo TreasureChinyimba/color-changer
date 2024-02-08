@@ -1,0 +1,22 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    height: 100vh;
+    width: 100vw;
+}
+
+button {
+    padding: 20px;
+    cursor: pointer;
+    background-color: cyan;
+    transition: 0.2s;
+    border: solid 1px;
+}
+
+button:hover {
+    background-color: skyblue;
+}
